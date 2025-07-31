@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0", shrink-to-fit=no">
+    <title>CSS Gram</title>
+    <link rel="stylesheet" href="../CSSGram/css_gram.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+</head>
+<body class="d-flex flex-column vh-100 justify-content-center align-items-center">
+    <h1 class="display-4">PhotoFilter</h1>
+    <div class="justify-content-center">
+        <div class="float-left m-1">
+            <input type="checkbox" name="light_filter" id="light_filter">
+            <label for="light_filter">Light Filter</label>
+        </div>
+        <div class="float-left m-1">
+            <input type="checkbox" name="glitch_filter" id="glitch_filter">
+            <label for="glitch_filter">Glitch Filter</label>
+        </div>
+        <div class="float-left m-1">
+            <input type="checkbox" name="cold_filter" id="cold_filter">
+            <label for="cold_filter">Cold Filter</label>
+        </div>
+        <div class="float-left m-1">
+            <input type="checkbox" name="dark_filter" id="dark_filter">
+            <label for="dark_filter">Dark Filter</label>
+        </div>
+        <div class="float-left m-1">
+            <input type="checkbox" name="hot_filter" id="hot_filter">
+            <label for="hot_filter">Hot Filter</label>
+        </div>
+    </div>
+    <label for="input_select_photo" class="btn btn-success border border-dark">Choose photo</label>
+    <input type="file" name="input_select_photo" accept="image/jpg, image/jpeg, image/png" id="input_select_photo" class="mb-3">
+    <div class="d-flex justify-content-center align-items-center border border-dark rounded" id="display"></div>
+        <button id="download_btn" class="btn btn-success m-3 border border-dark w-25">Download image</button>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj " crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+    <script src="../CSSGram/css_gram.js"></script>
+</body>
+</html>
