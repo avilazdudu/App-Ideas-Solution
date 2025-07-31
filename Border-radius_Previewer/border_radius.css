@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Pixelify Sans", sans-serif;
+}
+.block {
+    display: block;
+    background-color: black;
+    height: 10rem;
+    width: 10rem;
+    border-radius: 0rem 0rem 0rem 0rem;  /*1° top-left, 2° top-right, 3° bottom-right, 4° bottom-left */
+}
+#display{
+    font-family: "Pixelify Sans", sans-serif;
+    font-size: 1.2rem;
+}
+.outline-section{
+    border: 0.15rem solid ;
+    border-radius: 1rem;
+    background-color: whitesmoke;
+}
+span{
+    font-weight: 500;
+    color:black;
+}
