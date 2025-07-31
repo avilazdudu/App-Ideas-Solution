@@ -39,6 +39,7 @@ Cada pasta representará um nível de dificuldade e conterá projetos independen
 ## 📌 Status
 
 📂 Começando pelos Iniciantes!!! 
+
 🛠️ Border Radius Previewer - Completo!
 
 ---
